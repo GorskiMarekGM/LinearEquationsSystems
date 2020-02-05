@@ -1,0 +1,14 @@
+C:\Users\Nauka\source\repos\LinearEquationsSystems\LinearEquationsSystems\bin\Debug\LinearEquationsSystems.exe.config
+C:\Users\Nauka\source\repos\LinearEquationsSystems\LinearEquationsSystems\bin\Debug\LinearEquationsSystems.exe
+C:\Users\Nauka\source\repos\LinearEquationsSystems\LinearEquationsSystems\bin\Debug\LinearEquationsSystems.pdb
+C:\Users\Nauka\source\repos\LinearEquationsSystems\LinearEquationsSystems\obj\Debug\LinearEquationsSystems.csprojAssemblyReference.cache
+C:\Users\Nauka\source\repos\LinearEquationsSystems\LinearEquationsSystems\obj\Debug\LinearEquationsSystems.csproj.CoreCompileInputs.cache
+C:\Users\Nauka\source\repos\LinearEquationsSystems\LinearEquationsSystems\obj\Debug\LinearEquationsSystems.exe
+C:\Users\Nauka\source\repos\LinearEquationsSystems\LinearEquationsSystems\obj\Debug\LinearEquationsSystems.pdb
+C:\Users\Marek\source\repos\LinearEquationsSystems\LinearEquationsSystems\bin\Debug\LinearEquationsSystems.exe.config
+C:\Users\Marek\source\repos\LinearEquationsSystems\LinearEquationsSystems\bin\Debug\LinearEquationsSystems.exe
+C:\Users\Marek\source\repos\LinearEquationsSystems\LinearEquationsSystems\bin\Debug\LinearEquationsSystems.pdb
+C:\Users\Marek\source\repos\LinearEquationsSystems\LinearEquationsSystems\obj\Debug\LinearEquationsSystems.csprojAssemblyReference.cache
+C:\Users\Marek\source\repos\LinearEquationsSystems\LinearEquationsSystems\obj\Debug\LinearEquationsSystems.csproj.CoreCompileInputs.cache
+C:\Users\Marek\source\repos\LinearEquationsSystems\LinearEquationsSystems\obj\Debug\LinearEquationsSystems.exe
+C:\Users\Marek\source\repos\LinearEquationsSystems\LinearEquationsSystems\obj\Debug\LinearEquationsSystems.pdb
