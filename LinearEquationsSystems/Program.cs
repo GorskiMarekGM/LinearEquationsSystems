@@ -7,16 +7,18 @@ using System.Threading.Tasks;
 namespace LinearEquationsSystems
 {
     class Program
-    {   
+    {
         //Show Matrix arguments(Matrix, Number of rows and columns)
-        static void DisplayMatrix(int[,] arr, int M)
+        public static void DisplayMatrix(int[,] arr, int M, int N)
         {
             for (int row = 0; row < M; row++)
             {
-                for (int col = 0; col < M + 1; col++)
+                Console.Write("[");
+                for (int col = 0; col < N; col++)
                 {
-                    Console.Write(arr[row, col]);
+                    Console.Write(arr[row, col] + ", ");
                 }
+                Console.Write("]");
                 Console.WriteLine();
             }
         }
@@ -59,30 +61,41 @@ namespace LinearEquationsSystems
             return V;
         }
 
-        static void Main(string[] args)
+        static int CheckInt()
         {
-            Console.WriteLine("How many equations do you want to put? ");
             int M;
             while (!int.TryParse(Console.ReadLine(), out M))
             {
                 Console.WriteLine("Wrong number, try again");
             }
+            return M;
+        }
 
-            int[,] A = new int[M, M+1];
+        static void Main(string[] args)
+        {
+            
 
-            for (int row = 0; row < M; row++)
+            Console.WriteLine("How many equations do you want to put? ");
+            int M = CheckInt();
+
+            Console.WriteLine("x1 | x2 | x3 | b \n");
+            Entering_Equations.UserInterface(M);
+
+            int[,] A = new int[M, M + 1];
+            A = Entering_Equations.ReturnMatrix();
+
+            DisplayMatrix(A, M, M+1);
+           
+
+            /*for (int row = 0; row < M; row++)
             {
                 Console.Write($"Eq #{row}: ");
-                int numInput;                
+                             
                 for (int col = 0; col < M+1; col++)
                 {
-                    while (!int.TryParse(Console.ReadLine(), out numInput))
-                    {
-                        Console.WriteLine("Wrong number, try again");
-                    }
-                    A[row, col] = numInput;
+                    A[row, col] = CheckInt(); ;
                 }
-            }
+            }*/
 
             ForwardElimination(A,M);
 
